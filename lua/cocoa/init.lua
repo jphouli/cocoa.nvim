@@ -13,6 +13,7 @@ function M.setup(opts)
 end
 
 function setupHighlights(opts)
+    local palette = opts.palette
     local highlight = vim.api.nvim_set_hl
 
     highlight(0, "Normal", {
