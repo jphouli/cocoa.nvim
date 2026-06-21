@@ -39,6 +39,10 @@ function M.setup()
         fg = palette.fg,
         bg = palette.bg
     })
+    highlight(0, "EndOfBuffer", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
     highlight(0, "@variable", {
         fg = palette.fg,
         bg = palette.bg
