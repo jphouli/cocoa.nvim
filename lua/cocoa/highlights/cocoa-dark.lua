@@ -59,11 +59,11 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@function.call"] = {
-            fg = palette.light_orange,
+            fg = palette.orange,
             bg = palette.black
         },
         ["@method.call"] = {
-            fg = palette.light_orange,
+            fg = palette.orange,
             bg = palette.black
         },
         ["@parameter"] = {
@@ -120,7 +120,7 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Function = {
-            fg = palette.light_orange,
+            fg = palette.orange,
             bg = palette.black
         },
         PreProc = {
