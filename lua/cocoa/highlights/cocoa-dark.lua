@@ -108,7 +108,7 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Constant = {
-            fg = palette.silver,
+            fg = palette.apricot,
             bg = palette.black
         },
         String = {
