@@ -11,6 +11,39 @@ function M.setup()
         fg = palette.fg,
         bg = palette.bg
     })
+    highlight(0, "Statement", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "Delimiter", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "Special", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "Operator", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "Constant", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "Function", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "String", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+    highlight(0, "@variable", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
+
 end
 
 return M
