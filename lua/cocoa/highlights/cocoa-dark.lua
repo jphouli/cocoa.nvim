@@ -116,7 +116,11 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         String = {
-            fg = palette.light_orange,
+            fg = palette.terracotta,
+            bg = palette.black
+        },
+        SpecialChar = {
+            fg = palette.terracotta,
             bg = palette.black
         },
         Function = {
