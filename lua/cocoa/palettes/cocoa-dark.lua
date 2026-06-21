@@ -1,4 +1,5 @@
 return {
+    peach = "#f9c8b8",
     orange = "#f1a355",
     terracotta = "#CE9178",
     deep_gold = "#bf9540",

@@ -132,7 +132,7 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Type = {
-            fg = palette.light_orange,
+            fg = palette.peach,
             bg = palette.black
         },
         Keyword = {
