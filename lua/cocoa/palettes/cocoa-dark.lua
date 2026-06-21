@@ -1,5 +1,5 @@
 return {
     orange = "#e8b37d",
-    light_orange = "#f9d9b8",
+    light_orange = "#ecd9c6",
     black = "#1d1a16"
 }
