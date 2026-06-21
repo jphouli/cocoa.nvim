@@ -144,15 +144,15 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Structure = {
-            fg = palette.tan,
+            fg = palette.deep_gold,
             bg = palette.black
         },
         Delimiter = {
-            fg = palette.tan,
+            fg = palette.deep_gold,
             bg = palette.black
         },
         Operator = {
-            fg = palette.tan,
+            fg = palette.deep_gold,
             bg = palette.black
         }
     }
