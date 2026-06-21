@@ -63,11 +63,11 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@function.call"] = {
-            fg = palette.orange,
+            fg = palette.warm_beige,
             bg = palette.black
         },
         ["@method.call"] = {
-            fg = palette.orange,
+            fg = palette.warm_beige,
             bg = palette.black
         },
         ["@parameter"] = {
@@ -79,15 +79,15 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@constructor"] = {
-            fg = palette.orange,
+            fg = palette.warm_beige,
             bg = palette.black
         },
         ["@keyword.return"] = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         ["@tag"] = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         }
     }
@@ -103,76 +103,76 @@ function getBaseHighlightSettings(palette)
             fg = palette.silver,
             bg = palette.black
         },
+        Comment = {
+            fg = palette.silver,
+            bg = palette.black
+        },
         Constant = {
             fg = palette.silver,
             bg = palette.black
         },
         String = {
-            fg = palette.terracotta,
+            fg = palette.tan,
             bg = palette.black
         },
         SpecialChar = {
-            fg = palette.terracotta,
+            fg = palette.tan,
             bg = palette.black
         },
         Function = {
-            fg = palette.orange,
+            fg = palette.warm_beige,
             bg = palette.black
         },
         PreProc = {
-            fg = palette.peach,
+            fg = palette.apricot,
             bg = palette.black
         },
         Special = {
-            fg = palette.peach,
+            fg = palette.apricot,
             bg = palette.black
         },
-        Comment = {
-            fg = palette.silver,
+        Type = {
+            fg = palette.apricot,
             bg = palette.black
         },
         Identifier = {
             fg = palette.cream,
             bg = palette.black
         },
-        Type = {
-            fg = palette.peach,
-            bg = palette.black
-        },
         Keyword = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Exception = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Label = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Repeat = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Conditional = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Statement = {
-            fg = palette.creamy_beige,
+            fg = palette.sand,
             bg = palette.black
         },
         Structure = {
-            fg = palette.deep_gold,
+            fg = palette.sandy_beige,
             bg = palette.black
         },
         Delimiter = {
-            fg = palette.deep_gold,
+            fg = palette.sandy_beige,
             bg = palette.black
         },
         Operator = {
-            fg = palette.deep_gold,
+            fg = palette.sandy_beige,
             bg = palette.black
         }
     }

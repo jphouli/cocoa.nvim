@@ -1,11 +1,10 @@
 return {
-    peach = "#f9c8b8",
-    orange = "#f1a355",
-    terracotta = "#CE9178",
-    cream = "#efc78f",
-    deep_gold = "#bf9540",
-    gray = "#ecd9c6",
-    silver = "#c9beb6",
-    creamy_beige = "#cdae98",
+    apricot = "#f5daa3",
+    warm_beige = "#f0cca8",
+    tan = "#cc9966",
+    cream = "#f2bf8c",
+    sandy_beige = "#c7996b",
+    silver = "#c9c2b6",
+    sand = "#c9ac82",
     black = "#1d1a16"
 }
