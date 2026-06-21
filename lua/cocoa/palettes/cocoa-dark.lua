@@ -1,10 +1,10 @@
 return {
-    apricot = "#f5daa3",
-    warm_beige = "#f0cca8",
-    tan = "#cc9966",
+    apricot = "#f9e4b8",
+    warm_beige = "#ecbf93",
+    tan = "#c08c59",
     cream = "#f2bf8c",
-    sandy_beige = "#c7996b",
-    silver = "#c9c2b6",
-    sand = "#c9ac82",
+    sandy_beige = "#b3804d",
+    silver = "#a39c8f",
+    sand = "#bd9f75",
     black = "#1d1a16"
 }
