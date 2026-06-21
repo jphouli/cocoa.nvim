@@ -19,31 +19,31 @@ function getUIHighlightSettings(palette)
     return {
         CursorLine = {
             fg = palette.black,
-            bg = palette.light_orange
+            bg = palette.silver
         },
         LineNr = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         CursorLineNr = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         Visual = {
             fg = palette.black,
-            bg = palette.light_orange
+            bg = palette.silver
         },
         Search = {
             fg = palette.black,
-            bg = palette.light_orange
+            bg = palette.silver
         },
         Pmenu = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         PmenuSel = {
             fg = palette.black,
-            bg = palette.light_orange
+            bg = palette.silver
         }
     }
 end
@@ -55,6 +55,10 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@variable"] = {
+            fg = palette.cream,
+            bg = palette.black
+        },
+        ["@variable.member"] = {
             fg = palette.cream,
             bg = palette.black
         },
@@ -92,15 +96,15 @@ end
 function getBaseHighlightSettings(palette)
     return {
         Normal = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         EndOfBuffer = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         Constant = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         String = {
@@ -116,15 +120,15 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         PreProc = {
-            fg = palette.light_orange,
+            fg = palette.peach,
             bg = palette.black
         },
         Special = {
-            fg = palette.light_orange,
+            fg = palette.peach,
             bg = palette.black
         },
         Comment = {
-            fg = palette.light_orange,
+            fg = palette.silver,
             bg = palette.black
         },
         Identifier = {
