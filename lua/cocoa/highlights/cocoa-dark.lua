@@ -19,6 +19,10 @@ function M.setup()
         fg = palette.fg,
         bg = palette.bg
     })
+    highlight(0, "PreProc", {
+        fg = palette.fg,
+        bg = palette.bg
+    })
     highlight(0, "Special", {
         fg = palette.fg,
         bg = palette.bg
