@@ -99,10 +99,6 @@ function getBaseHighlightSettings(palette)
             fg = palette.light_orange,
             bg = palette.black
         },
-        Statement = {
-            fg = palette.light_orange,
-            bg = palette.black
-        },
         Constant = {
             fg = palette.light_orange,
             bg = palette.black
@@ -140,7 +136,27 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Keyword = {
-            fg = palette.light_orange,
+            fg = palette.toffee,
+            bg = palette.black
+        },
+        Exception = {
+            fg = palette.toffee,
+            bg = palette.black
+        },
+        Label = {
+            fg = palette.toffee,
+            bg = palette.black
+        },
+        Repeat = {
+            fg = palette.toffee,
+            bg = palette.black
+        },
+        Conditional = {
+            fg = palette.toffee,
+            bg = palette.black
+        },
+        Statement = {
+            fg = palette.toffee,
             bg = palette.black
         },
         Structure = {
