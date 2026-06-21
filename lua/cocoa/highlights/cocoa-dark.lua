@@ -51,11 +51,11 @@ end
 function getTreeSitterHighlightSettings(palette)
     return {
         ["@field"] = {
-            fg = palette.light_orange,
+            fg = palette.cream,
             bg = palette.black
         },
         ["@variable"] = {
-            fg = palette.light_orange,
+            fg = palette.cream,
             bg = palette.black
         },
         ["@function.call"] = {
@@ -67,23 +67,23 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@parameter"] = {
-            fg = palette.light_orange,
+            fg = palette.cream,
             bg = palette.black
         },
         ["@property"] = {
-            fg = palette.light_orange,
+            fg = palette.cream,
             bg = palette.black
         },
         ["@constructor"] = {
-            fg = palette.light_orange,
+            fg = palette.orange,
             bg = palette.black
         },
         ["@keyword.return"] = {
-            fg = palette.light_orange,
+            fg = palette.brown,
             bg = palette.black
         },
         ["@tag"] = {
-            fg = palette.light_orange,
+            fg = palette.brown,
             bg = palette.black
         }
     }
@@ -128,7 +128,7 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Identifier = {
-            fg = palette.light_orange,
+            fg = palette.cream,
             bg = palette.black
         },
         Type = {
