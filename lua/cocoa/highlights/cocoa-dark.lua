@@ -8,47 +8,47 @@ function M.setup()
     local highlight = vim.api.nvim_set_hl
 
     highlight(0, "Normal", {
-        fg = palette.fg,
+        fg = palette.light_red,
         bg = palette.bg
     })
     highlight(0, "Statement", {
-        fg = palette.fg,
+        fg = palette.light_yellow,
         bg = palette.bg
     })
     highlight(0, "Delimiter", {
-        fg = palette.fg,
+        fg = palette.light_yellow_green,
         bg = palette.bg
     })
     highlight(0, "PreProc", {
-        fg = palette.fg,
+        fg = palette.light_green,
         bg = palette.bg
     })
     highlight(0, "Special", {
-        fg = palette.fg,
+        fg = palette.light_green,
         bg = palette.bg
     })
     highlight(0, "Operator", {
-        fg = palette.fg,
+        fg = palette.light_yellow_green,
         bg = palette.bg
     })
     highlight(0, "Constant", {
-        fg = palette.fg,
+        fg = palette.red,
         bg = palette.bg
     })
     highlight(0, "Function", {
-        fg = palette.fg,
+        fg = palette.orange,
         bg = palette.bg
     })
     highlight(0, "String", {
-        fg = palette.fg,
+        fg = palette.yellow,
         bg = palette.bg
     })
     highlight(0, "EndOfBuffer", {
-        fg = palette.fg,
+        fg = palette.light_red,
         bg = palette.bg
     })
     highlight(0, "@variable", {
-        fg = palette.fg,
+        fg = palette.light_orange,
         bg = palette.bg
     })
 
