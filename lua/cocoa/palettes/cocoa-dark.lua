@@ -5,6 +5,6 @@ return {
     cream = "#efc78f",
     deep_gold = "#bf9540",
     gray = "#ecd9c6",
-    brown = "#78543a",
+    dark_beige = "#bd9375",
     black = "#1d1a16"
 }
