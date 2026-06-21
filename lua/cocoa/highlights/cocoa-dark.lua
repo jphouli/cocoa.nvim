@@ -79,11 +79,11 @@ function getTreeSitterHighlightSettings(palette)
             bg = palette.black
         },
         ["@keyword.return"] = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         ["@tag"] = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         }
     }
@@ -136,27 +136,27 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Keyword = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Exception = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Label = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Repeat = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Conditional = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Statement = {
-            fg = palette.dark_beige,
+            fg = palette.creamy_beige,
             bg = palette.black
         },
         Structure = {
