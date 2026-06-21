@@ -18,32 +18,32 @@ end
 function getUIHighlightSettings(palette)
     return {
         CursorLine = {
-            fg = palette.bg,
-            bg = palette.light_red
+            fg = palette.black,
+            bg = palette.light_orange
         },
         LineNr = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         CursorLineNr = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Visual = {
-            fg = palette.bg,
-            bg = palette.light_red
+            fg = palette.black,
+            bg = palette.light_orange
         },
         Search = {
-            fg = palette.bg,
-            bg = palette.light_red
+            fg = palette.black,
+            bg = palette.light_orange
         },
         Pmenu = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         PmenuSel = {
-            fg = palette.bg,
-            bg = palette.light_red
+            fg = palette.black,
+            bg = palette.light_orange
         }
     }
 end
@@ -51,40 +51,40 @@ end
 function getTreeSitterHighlightSettings(palette)
     return {
         ["@field"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@variable"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@function.call"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@method.call"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@parameter"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@property"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@constructor"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@keyword.return"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         ["@tag"] = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         }
     }
 end
@@ -92,64 +92,64 @@ end
 function getBaseHighlightSettings(palette)
     return {
         Normal = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         EndOfBuffer = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Statement = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Delimiter = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Operator = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Constant = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         String = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Function = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         PreProc = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Special = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Comment = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Identifier = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Type = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Keyword = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         },
         Structure = {
-            fg = palette.light_red,
-            bg = palette.bg
+            fg = palette.light_orange,
+            bg = palette.black
         }
     }
 end
