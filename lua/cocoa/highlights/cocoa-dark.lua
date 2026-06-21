@@ -103,14 +103,6 @@ function getBaseHighlightSettings(palette)
             fg = palette.light_orange,
             bg = palette.black
         },
-        Delimiter = {
-            fg = palette.light_orange,
-            bg = palette.black
-        },
-        Operator = {
-            fg = palette.light_orange,
-            bg = palette.black
-        },
         Constant = {
             fg = palette.light_orange,
             bg = palette.black
@@ -152,7 +144,15 @@ function getBaseHighlightSettings(palette)
             bg = palette.black
         },
         Structure = {
-            fg = palette.light_orange,
+            fg = palette.tan,
+            bg = palette.black
+        },
+        Delimiter = {
+            fg = palette.tan,
+            bg = palette.black
+        },
+        Operator = {
+            fg = palette.tan,
             bg = palette.black
         }
     }
