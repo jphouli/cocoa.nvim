@@ -47,7 +47,87 @@ function M.setup()
         fg = palette.light_red,
         bg = palette.bg
     })
+    highlight(0, "CursorLine", {
+        fg = palette.bg,
+        bg = palette.light_orange
+    })
+    highlight(0, "LineNr", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "CursorLineNr", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "Visual", {
+        fg = palette.bg,
+        bg = palette.light_orange
+    })
+    highlight(0, "Search", {
+        fg = palette.bg,
+        bg = palette.light_orange
+    })
+    highlight(0, "Pmenu", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "PmenuSel", {
+        fg = palette.bg,
+        bg = palette.light_orange
+    })
+    highlight(0, "Comment", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "Identifier", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "Type", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "Keyword", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "Structure", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
     highlight(0, "@variable", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@function.call", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@method.call", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@parameter", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@field", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@property", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@constructor", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@keyword.return", {
+        fg = palette.light_orange,
+        bg = palette.bg
+    })
+    highlight(0, "@tag", {
         fg = palette.light_orange,
         bg = palette.bg
     })
