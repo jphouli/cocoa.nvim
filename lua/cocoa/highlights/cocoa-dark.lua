@@ -174,6 +174,10 @@ function getBaseHighlightSettings(palette)
         Operator = {
             fg = palette.sandy_beige,
             bg = palette.black
+        },
+        Directory = {
+            fg = palette.apricot,
+            bg = palette.black
         }
     }
 end
