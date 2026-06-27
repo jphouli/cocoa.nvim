@@ -24,8 +24,7 @@ function getUIHighlightSettings(palette)
             fg = palette["slate-500"]
         },
         CursorLineNr = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Visual = {
             bg = palette["mango-900"]
@@ -40,8 +39,7 @@ function getUIHighlightSettings(palette)
         },
         PmenuSel = {
             fg = palette["slate-900"],
-            bg = palette["mango-500"],
-            bold = true
+            bg = palette["mango-500"]
         }
     }
 end
@@ -64,8 +62,7 @@ function getTreeSitterHighlightSettings(palette)
             fg = palette["mango-300"]
         },
         ["@function.call"] = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         ["@method.call"] = {
             fg = palette["mango-500"]
@@ -74,8 +71,7 @@ function getTreeSitterHighlightSettings(palette)
             fg = palette["deep_gold-500"]
         },
         ["@keyword.return"] = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         ["@tag"] = {
             fg = palette["mango-500"]
@@ -93,8 +89,7 @@ function getBaseHighlightSettings(palette)
             fg = palette["slate-700"]
         },
         Comment = {
-            fg = palette["slate-500"],
-            italic = true
+            fg = palette["slate-500"]
         },
         Constant = {
             fg = palette["deep_gold-300"]
@@ -124,27 +119,22 @@ function getBaseHighlightSettings(palette)
             fg = palette["mango-500"]
         },
         Keyword = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Exception = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Label = {
             fg = palette["mango-300"]
         },
         Repeat = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Conditional = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Statement = {
-            fg = palette["mango-500"],
-            bold = true
+            fg = palette["mango-500"]
         },
         Structure = {
             fg = palette["deep_gold-500"]
