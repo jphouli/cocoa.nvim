@@ -4,9 +4,9 @@ function M.setup()
     vim.o.background = "dark"
     vim.g.colors_name = "cocoa-dark"
 
-    local palette = require("cocoa.palettes.cocoa-dark")
-    local highlight = vim.api.nvim_set_hl
+    local palette = require("cocoa.palettes.cocoa-dark");
 
+    local highlight = vim.api.nvim_set_hl
     local highlightSettings = vim.tbl_extend("force", getUIHighlightSettings(palette),
         getTreeSitterHighlightSettings(palette), getBaseHighlightSettings(palette))
 
@@ -18,32 +18,30 @@ end
 function getUIHighlightSettings(palette)
     return {
         CursorLine = {
-            fg = palette.black,
-            bg = palette.silver
+            bg = palette["slate-700"]
         },
         LineNr = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["slate-500"]
         },
         CursorLineNr = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["mango-300"],
+            bold = true
         },
         Visual = {
-            fg = palette.black,
-            bg = palette.silver
+            bg = palette["mango-900"]
         },
         Search = {
-            fg = palette.black,
-            bg = palette.silver
+            fg = palette["slate-900"],
+            bg = palette["deep_gold-300"]
         },
         Pmenu = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["slate-100"],
+            bg = palette["slate-700"]
         },
         PmenuSel = {
-            fg = palette.black,
-            bg = palette.silver
+            fg = palette["slate-900"],
+            bg = palette["mango-300"],
+            bold = true
         }
     }
 end
@@ -51,44 +49,35 @@ end
 function getTreeSitterHighlightSettings(palette)
     return {
         ["@field"] = {
-            fg = palette.cream,
-            bg = palette.black
+            fg = palette["mango-100"]
         },
         ["@variable"] = {
-            fg = palette.cream,
-            bg = palette.black
+            fg = palette["mango-100"]
         },
         ["@variable.member"] = {
-            fg = palette.cream,
-            bg = palette.black
-        },
-        ["@function.call"] = {
-            fg = palette.warm_beige,
-            bg = palette.black
-        },
-        ["@method.call"] = {
-            fg = palette.warm_beige,
-            bg = palette.black
+            fg = palette["mango-100"]
         },
         ["@parameter"] = {
-            fg = palette.cream,
-            bg = palette.black
+            fg = palette["slate-300"]
         },
         ["@property"] = {
-            fg = palette.cream,
-            bg = palette.black
+            fg = palette["mango-100"]
+        },
+        ["@function.call"] = {
+            fg = palette["deep_gold-500"]
+        },
+        ["@method.call"] = {
+            fg = palette["deep_gold-500"]
         },
         ["@constructor"] = {
-            fg = palette.warm_beige,
-            bg = palette.black
+            fg = palette["deep_gold-300"]
         },
         ["@keyword.return"] = {
-            fg = palette.sand,
-            bg = palette.black
+            fg = palette["mango-500"],
+            bold = true
         },
         ["@tag"] = {
-            fg = palette.sand,
-            bg = palette.black
+            fg = palette["mango-500"]
         }
     }
 end
@@ -96,88 +85,74 @@ end
 function getBaseHighlightSettings(palette)
     return {
         Normal = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["mango-100"],
+            bg = palette["slate-900"]
         },
         EndOfBuffer = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["slate-700"]
         },
         Comment = {
-            fg = palette.silver,
-            bg = palette.black
+            fg = palette["slate-500"],
+            italic = true
         },
         Constant = {
-            fg = palette.apricot,
-            bg = palette.black
+            fg = palette["deep_gold-300"]
         },
         String = {
-            fg = palette.tan,
-            bg = palette.black
+            fg = palette["matcha-500"]
         },
         SpecialChar = {
-            fg = palette.tan,
-            bg = palette.black
+            fg = palette["matcha-300"]
         },
         Function = {
-            fg = palette.warm_beige,
-            bg = palette.black
+            fg = palette["deep_gold-500"]
         },
         PreProc = {
-            fg = palette.apricot,
-            bg = palette.black
+            fg = palette["mango-300"]
         },
         Special = {
-            fg = palette.apricot,
-            bg = palette.black
+            fg = palette["mango-300"]
         },
         Type = {
-            fg = palette.apricot,
-            bg = palette.black
+            fg = palette["deep_gold-300"]
         },
         Identifier = {
-            fg = palette.cream,
-            bg = palette.black
-        },
-        Keyword = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Exception = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Label = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Repeat = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Conditional = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Statement = {
-            fg = palette.sand,
-            bg = palette.black
-        },
-        Structure = {
-            fg = palette.sandy_beige,
-            bg = palette.black
-        },
-        Delimiter = {
-            fg = palette.sandy_beige,
-            bg = palette.black
-        },
-        Operator = {
-            fg = palette.sandy_beige,
-            bg = palette.black
+            fg = palette["mango-100"]
         },
         Directory = {
-            fg = palette.apricot,
-            bg = palette.black
+            fg = palette["deep_gold-300"]
+        },
+        Keyword = {
+            fg = palette["mango-500"],
+            bold = true
+        },
+        Exception = {
+            fg = palette["mango-500"],
+            bold = true
+        },
+        Label = {
+            fg = palette["mango-300"]
+        },
+        Repeat = {
+            fg = palette["mango-500"],
+            bold = true
+        },
+        Conditional = {
+            fg = palette["mango-500"],
+            bold = true
+        },
+        Statement = {
+            fg = palette["mango-500"],
+            bold = true
+        },
+        Structure = {
+            fg = palette["mango-300"]
+        },
+        Delimiter = {
+            fg = palette["slate-300"]
+        },
+        Operator = {
+            fg = palette["slate-100"]
         }
     }
 end
