@@ -24,14 +24,14 @@ function getUIHighlightSettings(p)
             fg = p["Stone-700"]
         },
         CursorLineNr = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         Visual = {
-            bg = p["Apricot-600"]
+            bg = p["Apricot-300"]
         },
         Search = {
             fg = p["bg"],
-            bg = p["Apricot-900"]
+            bg = p["Apricot-500"]
         },
         Pmenu = {
             fg = p["Stone-900"],
@@ -39,7 +39,7 @@ function getUIHighlightSettings(p)
         },
         PmenuSel = {
             fg = p["bg"],
-            bg = p["Apricot-900"]
+            bg = p["Apricot-500"]
         }
     }
 end
@@ -47,34 +47,34 @@ end
 function getTreeSitterHighlightSettings(p)
     return {
         ["@field"] = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         ["@variable"] = {
             fg = p["Stone-900"]
         },
         ["@variable.member"] = {
-            fg = p["Apricot-800"]
+            fg = p["Apricot-300"]
         },
         ["@parameter"] = {
             fg = p["Stone-900"]
         },
         ["@property"] = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         ["@function.call"] = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         ["@method.call"] = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         ["@constructor"] = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         ["@keyword.return"] = {
-            fg = p["Red-900"]
+            fg = p["Coral-300"]
         },
         ["@tag"] = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         }
     }
 end
@@ -92,52 +92,52 @@ function getBaseHighlightSettings(p)
             fg = p["Stone-700"]
         },
         Constant = {
-            fg = p["Amber-900"]
+            fg = p["Orange-500"]
         },
         String = {
-            fg = p["Turmeric-1000"]
+            fg = p["Orange-700"]
         },
         SpecialChar = {
-            fg = p["Turmeric-900"]
+            fg = p["Orange-300"]
         },
         Function = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         PreProc = {
-            fg = p["Amber-1000"]
+            fg = p["Orange-700"]
         },
         Special = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         Type = {
-            fg = p["Amber-900"]
+            fg = p["Orange-500"]
         },
         Identifier = {
             fg = p["Stone-1000"]
         },
         Directory = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         Keyword = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         Exception = {
-            fg = p["Red-1000"]
+            fg = p["Coral-500"]
         },
         Label = {
-            fg = p["Apricot-900"]
+            fg = p["Apricot-500"]
         },
         Repeat = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         Conditional = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         Statement = {
-            fg = p["Apricot-1000"]
+            fg = p["Apricot-700"]
         },
         Structure = {
-            fg = p["Amber-1000"]
+            fg = p["Orange-700"]
         },
         Delimiter = {
             fg = p["Stone-800"]
