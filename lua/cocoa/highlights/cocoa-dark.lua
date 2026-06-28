@@ -15,135 +15,135 @@ function M.setup()
     end
 end
 
-function getUIHighlightSettings(palette)
+function getUIHighlightSettings(p)
     return {
         CursorLine = {
-            bg = palette["slate-700"]
+            bg = p["Stone-600"]
         },
         LineNr = {
-            fg = palette["slate-500"]
+            fg = p["Stone-700"]
         },
         CursorLineNr = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-900"]
         },
         Visual = {
-            bg = palette["mango-900"]
+            bg = p["Apricot-600"]
         },
         Search = {
-            fg = palette["slate-900"],
-            bg = palette["mango-300"]
+            fg = p["bg"],
+            bg = p["Apricot-900"]
         },
         Pmenu = {
-            fg = palette["slate-100"],
-            bg = palette["slate-700"]
+            fg = p["Stone-900"],
+            bg = p["Stone-600"]
         },
         PmenuSel = {
-            fg = palette["slate-900"],
-            bg = palette["mango-500"]
+            fg = p["bg"],
+            bg = p["Apricot-900"]
         }
     }
 end
 
-function getTreeSitterHighlightSettings(palette)
+function getTreeSitterHighlightSettings(p)
     return {
         ["@field"] = {
-            fg = palette["mango-300"]
+            fg = p["Apricot-900"]
         },
         ["@variable"] = {
-            fg = palette["mango-100"]
+            fg = p["Stone-900"]
         },
         ["@variable.member"] = {
-            fg = palette["mango-300"]
+            fg = p["Apricot-800"]
         },
         ["@parameter"] = {
-            fg = palette["slate-300"]
+            fg = p["Stone-900"]
         },
         ["@property"] = {
-            fg = palette["mango-300"]
+            fg = p["Apricot-900"]
         },
         ["@function.call"] = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         ["@method.call"] = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         ["@constructor"] = {
-            fg = palette["deep_gold-500"]
+            fg = p["Apricot-900"]
         },
         ["@keyword.return"] = {
-            fg = palette["mango-500"]
+            fg = p["Red-900"]
         },
         ["@tag"] = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         }
     }
 end
 
-function getBaseHighlightSettings(palette)
+function getBaseHighlightSettings(p)
     return {
         Normal = {
-            fg = palette["mango-100"],
-            bg = palette["slate-900"]
+            fg = p["Stone-1000"],
+            bg = p["bg"]
         },
         EndOfBuffer = {
-            fg = palette["slate-700"]
+            fg = p["bg"]
         },
         Comment = {
-            fg = palette["slate-500"]
+            fg = p["Stone-700"]
         },
         Constant = {
-            fg = palette["deep_gold-300"]
+            fg = p["Amber-900"]
         },
         String = {
-            fg = palette["matcha-500"]
+            fg = p["Turmeric-1000"]
         },
         SpecialChar = {
-            fg = palette["matcha-300"]
+            fg = p["Turmeric-900"]
         },
         Function = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         PreProc = {
-            fg = palette["deep_gold-500"]
+            fg = p["Amber-1000"]
         },
         Special = {
-            fg = palette["deep_gold-300"]
+            fg = p["Apricot-900"]
         },
         Type = {
-            fg = palette["deep_gold-500"]
+            fg = p["Amber-900"]
         },
         Identifier = {
-            fg = palette["mango-100"]
+            fg = p["Stone-1000"]
         },
         Directory = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-900"]
         },
         Keyword = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         Exception = {
-            fg = palette["mango-500"]
+            fg = p["Red-1000"]
         },
         Label = {
-            fg = palette["mango-300"]
+            fg = p["Apricot-900"]
         },
         Repeat = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         Conditional = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         Statement = {
-            fg = palette["mango-500"]
+            fg = p["Apricot-1000"]
         },
         Structure = {
-            fg = palette["deep_gold-500"]
+            fg = p["Amber-1000"]
         },
         Delimiter = {
-            fg = palette["slate-300"]
+            fg = p["Stone-800"]
         },
         Operator = {
-            fg = palette["slate-100"]
+            fg = p["Stone-900"]
         }
     }
 end
