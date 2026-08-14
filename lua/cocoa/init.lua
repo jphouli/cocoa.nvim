@@ -1,11 +1,11 @@
 local M = {}
 
-function M.setup(opts)
+function M.setup()
     vim.cmd('hi clear')
     vim.cmd('syntax reset')
 
-    vim.g.colors_name = opts.style
-    vim.o.background = opts.mode
+    vim.g.colors_name = 'cocoa'
+    vim.o.background = 'dark'
 
     require('cocoa.color_groups.base').setup()
 end
