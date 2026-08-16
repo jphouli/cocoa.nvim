@@ -11,11 +11,11 @@ function M.setup(palette)
             bg = palette.charcoal
         },
         PreProc = {
-            fg = palette.spring_green,
+            fg = palette.olive_green,
             bg = palette.charcoal
         },
         String = {
-            fg = palette.olive_green,
+            fg = palette.spring_green,
             bg = palette.charcoal
         }
     }
