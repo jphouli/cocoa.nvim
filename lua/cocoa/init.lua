@@ -7,7 +7,7 @@ function M.setup(options)
     vim.g.colors_name = options.style or 'cocoa'
     vim.o.background = options.mode or 'dark'
 
-    require(options.style + '-' + options.mode).setup()
+    require('cocoa.' .. options.style .. '-' .. options.mode).setup()
 end
 
 return M
