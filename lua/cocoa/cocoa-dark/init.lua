@@ -5,7 +5,7 @@ function M.setup()
     local palette = require('cocoa.cocoa-dark.palette')
     local base = require('cocoa.cocoa-dark.color-groups.base').setup(palette)
 
-    for group, color in base do
+    for group, color in pairs(base) do
         highlight(0, group, color)
     end
 end
