@@ -1,3 +1,3 @@
 return {
-    black = '#161616'
+    charcoal = '#403937'
 }

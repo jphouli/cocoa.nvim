@@ -3,7 +3,7 @@ local M = {}
 function M.setup(palette)
     return {
         Normal = {
-            bg = palette.black
+            bg = palette.charcoal
         }
     }
 end
