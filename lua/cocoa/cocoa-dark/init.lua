@@ -1,0 +1,13 @@
+local M = {}
+
+function M.setup()
+    local highlight = vim.api.nvim_set_hl
+    local palette = require('cocoa.cocoa-dark.palette')
+    local base = require('lua.cocoa.cocoa-dark.color-groups.base').setup(palette)
+
+    for group, color in base do
+        highlight(0, group, color)
+    end
+end
+
+return M
