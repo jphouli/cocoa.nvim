@@ -17,6 +17,10 @@ function M.setup(palette)
         String = {
             fg = palette.spring_green,
             bg = palette.charcoal
+        },
+        Type = {
+            fg = palette.coral,
+            bg = palette.charcoal
         }
     }
 end
