@@ -1,3 +1,3 @@
 return {
-    charcoal = '#090c0b'
+    charcoal = '#070d0b'
 }
