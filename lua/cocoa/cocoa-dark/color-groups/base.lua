@@ -5,6 +5,10 @@ function M.setup(palette)
         Normal = {
             fg = palette.dusty_brown,
             bg = palette.charcoal
+        },
+        NonText = {
+            fg = palette.dusty_brown,
+            bg = palette.charcoal
         }
     }
 end
