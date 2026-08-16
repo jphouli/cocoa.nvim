@@ -1,4 +1,4 @@
 return {
-    dusty_brown = '#725e55',
-    charcoal = '#070d0b'
+    dusty_brown = '#ba9585',
+    charcoal = '#0b0b0b'
 }
