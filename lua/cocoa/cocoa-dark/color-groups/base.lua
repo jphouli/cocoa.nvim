@@ -13,6 +13,10 @@ function M.setup(palette)
         PreProc = {
             fg = palette.spring_green,
             bg = palette.charcoal
+        },
+        String = {
+            fg = palette.olive_green,
+            bg = palette.charcoal
         }
     }
 end
