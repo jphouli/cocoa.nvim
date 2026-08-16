@@ -9,6 +9,10 @@ function M.setup(palette)
         NonText = {
             fg = palette.dusty_brown,
             bg = palette.charcoal
+        },
+        PreProc = {
+            fg = palette.spring_green,
+            bg = palette.charcoal
         }
     }
 end
