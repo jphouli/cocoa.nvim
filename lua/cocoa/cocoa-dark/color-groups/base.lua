@@ -21,6 +21,10 @@ function M.setup(palette)
         Type = {
             fg = palette.coral_100,
             bg = palette.olive_gray
+        },
+        Statement = {
+            fg = palette.coral_50,
+            bg = palette.olive_gray
         }
     }
 end
