@@ -45,6 +45,10 @@ function M.setup(palette)
         Operator = {
             fg = palette.tan_700,
             bg = palette.forest
+        },
+        ['@variable'] = {
+            fg = palette.terracotta_300,
+            bg = palette.forest
         }
     }
 end
