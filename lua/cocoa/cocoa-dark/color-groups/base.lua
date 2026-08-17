@@ -4,27 +4,27 @@ function M.setup(palette)
     return {
         Normal = {
             fg = palette.coral_25,
-            bg = palette.olive_gray
+            bg = palette.forest
         },
         NonText = {
             fg = palette.coral_25,
-            bg = palette.olive_gray
+            bg = palette.forest
         },
         PreProc = {
             fg = palette.coral_25,
-            bg = palette.olive_gray
+            bg = palette.forest
         },
         String = {
             fg = palette.coral_50,
-            bg = palette.olive_gray
+            bg = palette.forest
         },
         Type = {
             fg = palette.coral_100,
-            bg = palette.olive_gray
+            bg = palette.forest
         },
         Statement = {
             fg = palette.coral_50,
-            bg = palette.olive_gray
+            bg = palette.forest
         }
     }
 end
