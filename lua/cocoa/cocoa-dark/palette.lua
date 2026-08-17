@@ -1,7 +1,6 @@
 return {
-    dusty_brown = '#ba9585',
-    coral = '#e97c48',
-    spring_green = '#a1f79a',
-    olive_green = '#7dae72',
+    coral_25 = '#ffe9e0',
+    coral_50 = '#ffd9c8',
+    coral_100 = '#ffc8b0',
     olive_gray = '#0e0b00'
 }
