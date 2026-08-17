@@ -25,6 +25,10 @@ function M.setup(palette)
         Statement = {
             fg = palette.terracotta_300,
             bg = palette.forest
+        },
+        Constant = {
+            fg = palette.terracotta_500,
+            bg = palette.forest
         }
     }
 end
