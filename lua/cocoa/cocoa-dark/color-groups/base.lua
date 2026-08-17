@@ -37,6 +37,10 @@ function M.setup(palette)
         Constant = {
             fg = palette.terracotta_500,
             bg = palette.forest
+        },
+        Special = {
+            fg = palette.coral_700,
+            bg = palette.forest
         }
     }
 end
