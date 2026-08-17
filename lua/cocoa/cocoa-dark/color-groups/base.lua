@@ -7,11 +7,11 @@ function M.setup(palette)
             bg = palette.forest
         },
         NonText = {
-            fg = palette.tan_900,
+            fg = palette.tan_700,
             bg = palette.forest
         },
         PreProc = {
-            fg = palette.tan_300,
+            fg = palette.tan_700,
             bg = palette.forest
         },
         String = {
@@ -19,11 +19,11 @@ function M.setup(palette)
             bg = palette.forest
         },
         Type = {
-            fg = palette.terracotta_900,
+            fg = palette.tan_300,
             bg = palette.forest
         },
         Statement = {
-            fg = palette.terracotta_700,
+            fg = palette.terracotta_300,
             bg = palette.forest
         }
     }
