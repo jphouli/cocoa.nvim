@@ -41,6 +41,10 @@ function M.setup(palette)
         Special = {
             fg = palette.coral_700,
             bg = palette.forest
+        },
+        Operator = {
+            fg = palette.tan_700,
+            bg = palette.forest
         }
     }
 end
