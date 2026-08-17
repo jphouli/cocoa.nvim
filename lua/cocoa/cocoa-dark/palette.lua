@@ -8,5 +8,5 @@ return {
     amber_25 = '#ffebd2',
     amber_50 = '#ffd8a4',
     amber_100 = '#ffc571',
-    forest = '#1a2111'
+    forest = '#21241d'
 }
