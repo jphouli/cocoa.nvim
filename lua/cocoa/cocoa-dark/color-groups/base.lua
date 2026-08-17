@@ -3,27 +3,27 @@ local M = {}
 function M.setup(palette)
     return {
         Normal = {
-            fg = palette.coral_25,
+            fg = palette.light_peach,
             bg = palette.forest
         },
         NonText = {
-            fg = palette.coral_25,
+            fg = palette.tan_900,
             bg = palette.forest
         },
         PreProc = {
-            fg = palette.coral_25,
+            fg = palette.tan_300,
             bg = palette.forest
         },
         String = {
-            fg = palette.coral_50,
+            fg = palette.coral_300,
             bg = palette.forest
         },
         Type = {
-            fg = palette.coral_100,
+            fg = palette.terracotta_900,
             bg = palette.forest
         },
         Statement = {
-            fg = palette.coral_50,
+            fg = palette.terracotta_700,
             bg = palette.forest
         }
     }
