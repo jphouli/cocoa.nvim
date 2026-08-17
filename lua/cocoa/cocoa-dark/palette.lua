@@ -3,5 +3,5 @@ return {
     coral = '#e97c48',
     spring_green = '#a1f79a',
     olive_green = '#7dae72',
-    muted_sage_gray = '#090b04'
+    olive_charcoal = '#090700'
 }
