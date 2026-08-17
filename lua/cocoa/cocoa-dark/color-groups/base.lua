@@ -46,6 +46,10 @@ function M.setup(palette)
             fg = palette.tan_700,
             bg = palette.forest
         },
+        Delimiter = {
+            fg = palette.tan_500,
+            bg = palette.forest
+        },
         ['@variable'] = {
             fg = palette.terracotta_300,
             bg = palette.forest
