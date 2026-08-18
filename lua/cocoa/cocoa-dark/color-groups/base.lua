@@ -69,6 +69,10 @@ function M.setup(palette)
         Comment = {
             fg = palette.muted_taupe,
             bg = palette.brown
+        },
+        StatusLine = {
+            fg = palette.beige,
+            bg = palette.muted_taupe
         }
     }
 end
