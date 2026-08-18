@@ -1,4 +1,4 @@
 return {
     brown = '#100804',
-    cosmic_latte = '#FFF8E7'
+    cosmic_latte = '#cabd9c'
 }
