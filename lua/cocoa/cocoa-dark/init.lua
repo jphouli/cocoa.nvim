@@ -5,7 +5,7 @@ local colorGroupsList = {'base', 'treesitter', 'oil'}
 function M.setup()
     local palette = require('cocoa.cocoa-dark.palette')
 
-    for colorGroup in colorGroupsList do
+    for _, colorGroup in ipairs(colorGroupsList) do
         local groupHighlights = require('cocoa.cocoa-dark.color-groups.' .. colorGroup).setup(palette)
 
         for highlight, color in pairs(groupHighlights) do
