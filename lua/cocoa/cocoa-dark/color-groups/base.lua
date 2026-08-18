@@ -47,7 +47,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         Delimiter = {
-            fg = palette.cosmic_latte,
+            fg = palette.dusty_tan,
             bg = palette.brown
         },
         ['@variable'] = {
