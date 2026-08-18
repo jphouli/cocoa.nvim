@@ -11,15 +11,15 @@ function M.setup(palette)
             bg = palette.brown
         },
         PreProc = {
-            fg = palette.cosmic_latte,
+            fg = palette.pastel_orange,
             bg = palette.brown
         },
         String = {
-            fg = palette.cosmic_latte,
+            fg = palette.dark_orange,
             bg = palette.brown
         },
         Type = {
-            fg = palette.cosmic_latte,
+            fg = palette.pastel_orange,
             bg = palette.brown
         },
         Statement = {
@@ -27,7 +27,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         Identifier = {
-            fg = palette.cosmic_latte,
+            fg = palette.dark_orange,
             bg = palette.brown
         },
         Function = {
@@ -35,11 +35,11 @@ function M.setup(palette)
             bg = palette.brown
         },
         Constant = {
-            fg = palette.cosmic_latte,
+            fg = palette.pastel_orange,
             bg = palette.brown
         },
         Special = {
-            fg = palette.cosmic_latte,
+            fg = palette.pastel_orange,
             bg = palette.brown
         },
         Operator = {
@@ -51,7 +51,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         ['@variable'] = {
-            fg = palette.cosmic_latte,
+            fg = palette.dark_orange,
             bg = palette.brown
         }
     }
