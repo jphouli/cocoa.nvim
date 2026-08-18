@@ -43,7 +43,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         Operator = {
-            fg = palette.cosmic_latte,
+            fg = palette.dusty_orange,
             bg = palette.brown
         },
         Delimiter = {
