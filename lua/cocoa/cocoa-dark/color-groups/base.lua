@@ -14,6 +14,14 @@ function M.setup(palette)
             fg = palette.beige,
             bg = palette.brown
         },
+        Operator = {
+            fg = palette.beige,
+            bg = palette.brown
+        },
+        ['@variable'] = {
+            fg = palette.beige,
+            bg = palette.brown
+        },
         Directory = {
             fg = palette.peach,
             bg = palette.brown
@@ -32,6 +40,10 @@ function M.setup(palette)
         },
         Special = {
             fg = palette.peach,
+            bg = palette.brown
+        },
+        Delimiter = {
+            fg = palette.muted_taupe,
             bg = palette.brown
         },
         Statement = {
