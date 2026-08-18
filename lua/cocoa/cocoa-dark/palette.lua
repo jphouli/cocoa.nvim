@@ -1,5 +1,5 @@
 return {
     cosmic_latte = '#cdc7b7',
-    peach = '#ffa265',
+    dark_orange = '#f07802',
     brown = '#191411'
 }

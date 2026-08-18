@@ -31,7 +31,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         Function = {
-            fg = palette.peach,
+            fg = palette.dark_orange,
             bg = palette.brown
         },
         Constant = {
