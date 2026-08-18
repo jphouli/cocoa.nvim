@@ -1,5 +1,5 @@
 return {
     beige = '#ecded4',
     muted_taupe = '#8d8177',
-    brown = '#191513'
+    brown = '#5e3900'
 }
