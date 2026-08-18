@@ -1,13 +1,10 @@
 return {
-    light_peach = '#f9ebe5',
-    coral_300 = '#ffa098',
-    coral_500 = '#ff645f',
-    coral_700 = '#f14d4c',
-    terracotta_300 = '#e8af95',
-    terracotta_500 = '#c97751',
-    terracotta_700 = '#8d5236',
-    tan_300 = '#e7b375',
-    tan_500 = '#b18652',
-    tan_700 = '#7c5c37',
+    light_peach = '#ffe8ec',
+    coral_80 = '#ffa099',
+    coral_65 = '#e95854',
+    terracotta_80 = '#ffa47a',
+    terracotta_65 = '#d47040',
+    tan_80 = '#fcab01',
+    tan_65 = '#bb8327',
     forest = '#10100f'
 }
