@@ -23,7 +23,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         Statement = {
-            fg = palette.cosmic_latte,
+            fg = palette.deep_coral,
             bg = palette.brown
         },
         Identifier = {
