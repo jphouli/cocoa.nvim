@@ -18,10 +18,6 @@ function M.setup(palette)
             fg = palette.beige,
             bg = palette.brown
         },
-        ['@variable'] = {
-            fg = palette.beige,
-            bg = palette.brown
-        },
         String = {
             fg = palette.peach,
             bg = palette.brown
@@ -51,10 +47,6 @@ function M.setup(palette)
             bg = palette.brown
         },
         Statement = {
-            fg = palette.muted_taupe,
-            bg = palette.brown
-        },
-        OilFile = {
             fg = palette.muted_taupe,
             bg = palette.brown
         },
