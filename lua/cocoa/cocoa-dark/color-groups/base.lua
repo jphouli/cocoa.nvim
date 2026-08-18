@@ -6,11 +6,6 @@ function M.setup(palette)
             fg = palette.beige,
             bg = palette.brown
         },
-        CursorLineNr = {
-            bold = true,
-            fg = palette.beige,
-            bg = palette.brown
-        },
         EndOfBuffer = {
             fg = palette.muted_taupe,
             bg = palette.brown
