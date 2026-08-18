@@ -3,56 +3,56 @@ local M = {}
 function M.setup(palette)
     return {
         Normal = {
-            fg = palette.light_peach,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         NonText = {
-            fg = palette.tan_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         PreProc = {
-            fg = palette.tan_65,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         String = {
-            fg = palette.coral_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Type = {
-            fg = palette.tan_65,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Statement = {
-            fg = palette.terracotta_65,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Identifier = {
-            fg = palette.terracotta_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Function = {
-            fg = palette.coral_65,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Constant = {
-            fg = palette.coral_65,
-            bg = palette.forest
+            fg = palette.,
+            bg = palette.cosmic_latte
         },
         Special = {
-            fg = palette.tan_65,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Operator = {
-            fg = palette.tan_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         Delimiter = {
-            fg = palette.tan_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         },
         ['@variable'] = {
-            fg = palette.terracotta_80,
-            bg = palette.forest
+            fg = palette.brown,
+            bg = palette.cosmic_latte
         }
     }
 end
