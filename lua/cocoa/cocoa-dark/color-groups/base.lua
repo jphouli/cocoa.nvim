@@ -50,6 +50,10 @@ function M.setup(palette)
             fg = palette.dusty_tan,
             bg = palette.brown
         },
+        Directory = {
+            fg = palette.deep_coral,
+            bg = palette.brown
+        },
         ['@variable'] = {
             fg = palette.dark_orange,
             bg = palette.brown
