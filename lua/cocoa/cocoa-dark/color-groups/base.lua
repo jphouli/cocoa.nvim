@@ -35,7 +35,7 @@ function M.setup(palette)
             bg = palette.cosmic_latte
         },
         Constant = {
-            fg = palette.,
+            fg = palette.brown,
             bg = palette.cosmic_latte
         },
         Special = {
