@@ -22,6 +22,10 @@ function M.setup(palette)
             fg = palette.beige,
             bg = palette.brown
         },
+        String = {
+            fg = palette.peach,
+            bg = palette.brown
+        },
         Directory = {
             fg = palette.peach,
             bg = palette.brown
