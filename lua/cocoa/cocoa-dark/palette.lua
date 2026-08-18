@@ -1,8 +1,8 @@
 return {
     light_peach = '#f9ebe5',
-    coral_300 = '#ebaba5',
-    coral_500 = '#df625d',
-    coral_700 = '#a23d3a',
+    coral_300 = '#ffa098',
+    coral_500 = '#ff645f',
+    coral_700 = '#f14d4c',
     terracotta_300 = '#e8af95',
     terracotta_500 = '#c97751',
     terracotta_700 = '#8d5236',
