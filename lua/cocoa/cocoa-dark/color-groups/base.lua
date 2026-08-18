@@ -71,7 +71,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         StatusLine = {
-            fg = palette.beige,
+            fg = palette.brown,
             bg = palette.muted_taupe
         }
     }
