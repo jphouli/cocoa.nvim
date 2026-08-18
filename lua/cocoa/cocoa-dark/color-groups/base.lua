@@ -7,6 +7,7 @@ function M.setup(palette)
             bg = palette.brown
         },
         CursorLineNr = {
+            bold = true,
             fg = palette.beige,
             bg = palette.brown
         },
